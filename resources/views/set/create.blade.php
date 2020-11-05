@@ -21,7 +21,14 @@
     </style>
 </head>
 <body class="antialiased">
-<h1>這是預備創建單一set的view</h1>
+<h1>這是預備創建單一商品的的view</h1>
+<h1>這是顯示建立一筆球員用的表單的 view </h1>
+
+姓名：{{ $name }}<br/>
+商品編號：{{ $category }}<br/>
+廠商：{{ $Brand }}<br/>
+價格：{{ $price }}<br/>
+
 <a href="/set">回到set的view</a>
 </body>
 </html>

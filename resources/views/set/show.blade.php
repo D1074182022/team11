@@ -21,11 +21,11 @@
     </style>
 </head>
 <body class="antialiased">
-<h1>這是預備顯示set的view</h1>
-name:{{$name}}<br/>
-category:{{$category}}<br/>
-Brand:{{$Brand}}<br/>
-price:{{$price}}<br/>
+<h1>這是預備顯示單一商品的view</h1>
+商品名稱:{{$name}}<br/>
+類別號:{{$category}}<br/>
+廠商:{{$Brand}}<br/>
+價格:{{$price}}<br/>
 <a href="/set">回到set的view</a>
 </body>
 </html>

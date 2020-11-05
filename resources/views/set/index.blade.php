@@ -21,7 +21,8 @@
     </style>
 </head>
 <body class="antialiased">
-<h1>這是預備搜尋全部set的view</h1>
+<h1>這是預備搜尋全部商品的view</h1>
+{{$name}}<br/>
 <a href="/">回到首頁</a>
 </body>
 </html>

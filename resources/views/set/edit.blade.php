@@ -21,7 +21,7 @@
     </style>
 </head>
 <body class="antialiased">
-<h1>這是預備編輯set的view</h1>
+<h1>這是預備編輯商品的view</h1>
 <a href="/set">回到set的view</a>
 </body>
 </html>
