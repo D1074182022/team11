@@ -22,7 +22,29 @@
 </head>
 <body class="antialiased">
 <h1>這是預備搜尋全部商品的view</h1>
-{{$name}}<br/>
-<a href="/">回到首頁</a>
+<th><p align="center"><a href="create.blade.php">新增</a> </p></th>
+<table>
+    <tr>
+        <th>商品名稱</th>
+        <th>商品類別</th>
+        <th>有無線路</th>
+        <th>價格</th>
+        <th>建立時間</th>
+        <th>修改時間</th>
+        @foreach($set as $set)
+        <tr>
+            <th>{{$set->id}}</th>
+            <th>{{$set->class}}</th>
+            <th>{{$set->line}}</th>
+            <th>{{$set->price}}</th>
+            <th>{{$set->created_at}}</th>
+            <th>{{$set->updated_at}}</th>
+            <th><p align="center"><a href="/set/{{$set->id}}">商品詳細資料</a> </p></th>
+            <th><p align="center"><a href="/set/{{$set->id}}">修改商品資料</a> </p></th>
+        </tr>
+    @endforeach
+    </tr>
+</table>
+
 </body>
 </html>
