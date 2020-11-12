@@ -22,6 +22,10 @@
 </head>
 <body class="antialiased">
 <h1>這是預備編輯商品的view</h1>
+姓名：{{ $name }}<br/>
+商品類別：{{ $class }}<br/>
+價格：{{ $price }}<br/>
+
 <a href="/set">回到set的view</a>
 </body>
 </html>

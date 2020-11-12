@@ -23,9 +23,9 @@
 <body class="antialiased">
 <h1>這是預備顯示單一商品的view</h1>
 商品名稱:{{$name}}<br/>
-類別號:{{$category}}<br/>
-廠商:{{$Brand}}<br/>
-價格:{{$price}}<br/>
+商品類別：{{ $class }}<br/>
+有無線路：{{ $line }}<br/>
+價格：{{ $price }}<br/>
 <a href="/set">回到set的view</a>
 </body>
 </html>

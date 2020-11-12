@@ -7,7 +7,7 @@
     <title>Laravel</title>
 
     <!-- Fonts -->
-    <link href= ">
+    <link href ="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <style>
@@ -22,7 +22,7 @@
 </head>
 <body class="antialiased">
 <h1>這是預備首頁的view</h1>
-<a href="store">進入store(預計刪除)</a>
+<a href="store">進入store</a>
 <br/>
 <a href="set">進入set</a>
 </body>

@@ -22,6 +22,10 @@
 </head>
 <body class="antialiased">
 <h1>這是預備創建單一店家的view</h1>
+廠商名稱:{{$name}}<br/>
+地址：{{ $home }}<br/>
+服務電話：{{ $phone }}<br/>
+董事長：{{ $ceo }}<br/>
 <a href="/store">回到全部店家的view</a>
 </body>
 </html>

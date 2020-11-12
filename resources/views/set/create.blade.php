@@ -25,8 +25,8 @@
 <h1>這是顯示建立一筆球員用的表單的 view </h1>
 
 姓名：{{ $name }}<br/>
-商品編號：{{ $category }}<br/>
-廠商：{{ $Brand }}<br/>
+商品類別：{{ $class }}<br/>
+有無線路：{{ $line }}<br/>
 價格：{{ $price }}<br/>
 
 <a href="/set">回到set的view</a>
